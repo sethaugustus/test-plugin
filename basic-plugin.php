@@ -8,6 +8,10 @@
 * Version: 1.0.0
 * License: GPLv2
 */
+//exit if accessed directly
+if (! defined( 'ABSPATH' ) ) {
+  exit;
+}
 include 'inc/remove-dashboard-widgets.php';
 include 'inc/add-bio-cpt.php';
 
